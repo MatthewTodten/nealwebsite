@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: olivedrab;
 }
 
 .center {
@@ -66,16 +66,18 @@ div.desc {
 }
 
 .name {
-  color: red;
-  text-align: left;
-  font-size: 50px;
-  text-decoration: underline;
+  color: greenyellow;
+  text-align: center;
+  font-size: 48px;
+  font-style: italic;
+  text-decoration-line: underline;
+  text-decoration-style: double;
 }
 
 .header_options {
-  color: blue;
-  text-align: right;
-  font-size: 100px;
+  color: orchid;
+  text-align: left;
+  font-size: 32px;
 }
 
 .merch {
