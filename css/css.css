@@ -80,12 +80,40 @@ div.desc {
   font-size: 32px;
 }
 
+.header_img {
+  border: 5px double ;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
 .merch {
   border: 5px double #111;
   margin: 50px;
   padding: 30px;
   width: 35%;
 }
+
+.album {
+  float: left;
+  border: 5px dotted #111;
+  margin: 25px;
+  padding: 15px;
+  width: 35%;
+}
+
+.border {
+  height:300px;
+  background-color:#FFFFFF;
+  border: 15px solid transparent;
+  padding: 15px;
+  border-image-source:url(arrow.for.borderimage.jpg);  
+  border-image-slice: 30;
+  border-image-width: 10px;
+  border-image-repeat: round;
+  }
 
 .postscript {
   position: absolute;
@@ -95,7 +123,7 @@ div.desc {
  /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 140px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -108,15 +136,16 @@ div.desc {
 /* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 25px;
-  color: #818181;
+  color: orchid;
   display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: greenyellow;
+  text-decoration: line-through;
 }
 
 /* Style page content */
