@@ -97,11 +97,10 @@ div.desc {
 }
 
 .album {
-  float: left;
-  border: 5px dotted #111;
-  margin: 25px;
+  float: center;
+
   padding: 15px;
-  width: 35%;
+  width: 100%;
 }
 
 .border {
@@ -109,16 +108,34 @@ div.desc {
   background-color:#FFFFFF;
   border: 15px solid transparent;
   padding: 15px;
-  border-image-source:url(arrow.for.borderimage.jpg);  
+  border-image-source:url(graphics/border.arrow.jpg);  
   border-image-slice: 30;
   border-image-width: 10px;
   border-image-repeat: round;
   }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: greenyellow;
+  padding: 10px;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 6px dotted rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 .postscript {
   position: absolute;
   padding-top: 20px;
 }
+
 
  /* The sidebar menu */
 .sidenav {
