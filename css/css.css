@@ -1,6 +1,7 @@
 body {
-  background-color: olivedrab;
+  background-image: url("../graphics/border.arrow.jpg");
 }
+
 
 .center {
   display: block;
@@ -23,7 +24,7 @@ h2 {
 }
 
 p {
-  font-family: verdana;
+  font-family: 'Nunito', sans-serif;
   font-size: 20px;
 }
 
@@ -115,7 +116,7 @@ div.desc {
   background-color:#FFFFFF;
   border: 15px solid transparent;
   padding: 15px;
-  border-image-source:url(graphics/border.arrow.jpg);  
+  border-image-source:url("../graphics/border.arrow.jpg");  
   border-image-slice: 30;
   border-image-width: 10px;
   border-image-repeat: round;
@@ -139,7 +140,7 @@ div.desc {
 }
 
 .postscript {
-  position: absolute;
+  position: relative;
   padding-top: 20px;
 }
 
@@ -151,7 +152,7 @@ div.desc {
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
-  left: 0;
+  float: left;
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
@@ -174,8 +175,17 @@ div.desc {
 
 /* Style page content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin: auto;
   padding: 0px 10px;
+  max-width: 920px;
+  text-align: center;
+  background-color: olivedrab;
+}
+
+.content {
+	margin-left: 180px;
+	margin-right: 40px;
+	
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
