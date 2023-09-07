@@ -80,6 +80,13 @@ div.desc {
   font-size: 32px;
 }
 
+.header_orchid {
+  color: orchid;
+  text-align: center;
+  font-size: 32px;
+
+}
+
 .header_img {
   border: 5px double ;
   padding: 5px;
