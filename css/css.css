@@ -1,5 +1,5 @@
 body {
-  background-image: url("../graphics/border.arrow.jpg");
+  background-image: url("../graphics/border.arrow2.jpg");
 }
 
 
@@ -27,6 +27,12 @@ p {
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
 }
+
+p2 {
+   font-family: 'Nunito', sans-serif;
+   font-size: 12px;
+   text-align: right;
+} 
 
 div.gallery {
   border: 1px solid #ccc;
@@ -84,9 +90,23 @@ div.desc {
 .header_orchid {
   color: orchid;
   text-align: center;
-  font-size: 32px;
-
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
 }
+
+.album_subpage_title {
+  color: greenyellow;
+  text-align: center;
+  font-size: 32px;
+  font-style: italic;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.album_subpage_artist {
+  color: orchid;
+  text-align: center;
+  font-size: 32px;}
 
 .header_img {
   border: 5px double ;
@@ -106,7 +126,6 @@ div.desc {
 
 .album {
   float: center;
-
   padding: 15px;
   width: 100%;
 }
@@ -127,16 +146,18 @@ div.desc {
   grid-template-columns: auto auto auto;
   background-color: greenyellow;
   padding: 10px;
-  column-gap: 50px;
-  row-gap: 50px;
+  column-gap: 15px;
+  row-gap: 15px;
+  width: auto;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 6px dotted rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   text-align: center;
+  width: auto;
 }
 
 .postscript {
@@ -153,7 +174,7 @@ div.desc {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   float: left;
-  background-color: #111; /* Black */
+  background-color: #000; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -177,15 +198,21 @@ div.desc {
 .main {
   margin: auto;
   padding: 0px 10px;
-  max-width: 920px;
+  max-width: 1000px;
   text-align: center;
   background-color: olivedrab;
+}
+
+.portal {
+  margin: auto;
+  padding: 0px 10px;
+  text-align: center;
+  background-color: white;
 }
 
 .content {
 	margin-left: 180px;
 	margin-right: 40px;
-	
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
