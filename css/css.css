@@ -1,5 +1,5 @@
 body {
-  background-image: url("../graphics/border.arrow2.jpg");
+  background-image: url("../graphics/background.arrows.pinstripe.2.invert.jpg");
 }
 
 
@@ -49,6 +49,8 @@ div.gallery img {
 
 div.desc {
   padding: 15px;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
 }
 
@@ -73,7 +75,7 @@ div.desc {
 }
 
 .name {
-  color: greenyellow;
+  color: black;
   text-align: center;
   font-size: 48px;
   font-style: italic;
@@ -82,20 +84,20 @@ div.desc {
 }
 
 .header_options {
-  color: orchid;
+  color: black;
   text-align: left;
   font-size: 32px;
 }
 
 .header_orchid {
-  color: orchid;
+  color: limegreen;
   text-align: center;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
 }
 
 .album_subpage_title {
-  color: greenyellow;
+  color: limegreen;
   text-align: center;
   font-size: 32px;
   font-style: italic;
@@ -104,9 +106,10 @@ div.desc {
 }
 
 .album_subpage_artist {
-  color: orchid;
+  color: black;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
-  font-size: 32px;}
+  font-size: 18px;}
 
 .header_img {
   border: 5px double ;
@@ -120,8 +123,9 @@ div.desc {
 .merch {
   border: 5px double #111;
   margin: 50px;
-  padding: 30px;
+  padding: 15px;
   width: 35%;
+  background-color: #F3C44E;
 }
 
 .album {
@@ -144,7 +148,8 @@ div.desc {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: greenyellow;
+  background-color: #F3C44E;
+  border:solid thin;
   padding: 10px;
   column-gap: 15px;
   row-gap: 15px;
@@ -200,7 +205,8 @@ div.desc {
   padding: 0px 10px;
   max-width: 1000px;
   text-align: center;
-  background-color: olivedrab;
+  background-color: #E3D48A;
+  border: solid
 }
 
 .portal {
