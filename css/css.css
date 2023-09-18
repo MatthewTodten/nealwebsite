@@ -1,5 +1,5 @@
 body {
-  background-image: url("../graphics/background.arrows.pinstripe.2.invert.jpg");
+  background-image: url("../graphics/background.arrows.pinstripe.2.invert.cleanedup.jpg");
 }
 
 
@@ -75,7 +75,7 @@ div.desc {
 }
 
 .name {
-  color: black;
+  color: limegreen;
   text-align: center;
   font-size: 48px;
   font-style: italic;
@@ -84,8 +84,10 @@ div.desc {
 }
 
 .header_options {
-  color: black;
+  color: #0093D1;
   text-align: left;
+  font-weight: bolder;
+  font-family: 'Nunito', sans-serif;
   font-size: 32px;
 }
 
@@ -106,7 +108,7 @@ div.desc {
 }
 
 .album_subpage_artist {
-  color: black;
+  color: #0093D1;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   font-size: 18px;}
@@ -121,11 +123,18 @@ div.desc {
 }
 
 .merch {
-  border: 5px double #111;
+  border: 5px thin #111;
   margin: 50px;
   padding: 15px;
   width: 35%;
   background-color: #F3C44E;
+}
+
+.merch_column {
+
+  float: left;
+  width: 50%;
+
 }
 
 .album {
@@ -149,7 +158,7 @@ div.desc {
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: #F3C44E;
-  border:solid thin;
+  border:dashed thin;
   padding: 10px;
   column-gap: 15px;
   row-gap: 15px;
@@ -164,6 +173,26 @@ div.desc {
   text-align: center;
   width: auto;
 }
+
+
+a:link {
+  color: dodgerblue;
+}
+
+/* visited link */
+a:visited {
+  color: orchid;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: limegreen;
+} 
 
 .postscript {
   position: relative;
