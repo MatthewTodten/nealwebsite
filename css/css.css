@@ -65,13 +65,13 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 5px 6px;
   float: left;
-  width: 24.99999%;
+  width: 32%;
 }
 
 .video{
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .name {
@@ -134,19 +134,62 @@ div.desc {
   margin: 1rem;
   padding: 1rem;
   text-align: center;
-	display: inline-flex
+  display: inline-flex;
+  align-content: flex-end;
 }
 
 .child {
   display: inline-block;
-
   vertical-align: middle;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.album-column {
+  float: left;
+  width: 33.33%;
+}
+
+.album.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.shop-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border:  double rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  margin: 20px;
+  font-size: 20px;
+	 font-family: 'Nunito', sans-serif;
+  text-align: center;
+  width: auto;
 }
 
 .album {
   float: center;
   padding: 15px;
   width: 100%;
+  border: dashed 1px;
+   background-color: #F3C44E;
+}
+
+.photo {  
+  float: center;
+  padding: 15px;
+  width: 100%;
+  border: dashed 1px;
 }
 
 .border {
@@ -163,8 +206,6 @@ div.desc {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #F3C44E;
-  border:dashed thin;
   padding: 10px;
   column-gap: 15px;
   row-gap: 15px;
@@ -217,6 +258,7 @@ a:active {
   background-color: #000; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+font-family: 'Aleo', serif;
 }
 
 /* The navigation menu links */
