@@ -263,7 +263,7 @@ font-family: 'Aleo', serif;
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 6px 12px 6px 16px;
   text-decoration: underline;
   font-size: 25px;
   color: orchid;
@@ -300,22 +300,62 @@ font-family: 'Aleo', serif;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .sidenav {padding-top: 15px;
-	width: 100px}
+	width: 85px
+	}
   .sidenav a {font-size: 18px;
-	width: 80px}
-  .content {min-width: 200px;
-	 margin-left: 112px;
+	width: 80px
 	}
-	.header_options {font-size: 22px;
+  .content {min-width: 232px;
+	 margin-left: 95px;
 	}
-	.main {margin: 0px 25px;}
-	.header_img {width: 100%}
-	.video {width: 160px;
-		height: 140px;}
-	.grid-container {
-		grid-template-columns: auto;}
-	p {font-size: 15px;}
-	.name {font-size: 36px;}
+  .header_options {font-size: 22px;
+	}
+  .main {margin: 0px 10px ;
+	}
+  .header_img {width: 100%
+	}
+  .video {width: 160px;
+		height: 140px;
+	}
+  .grid-container {
+		grid-template-columns: auto;
+	    padding: 0px;
+	}
+  p {font-size: 15px;
+	}
+  .name {font-size: 36px;
+	}
+.shop-item {
+  padding: 2px;
+  margin: 5px;
+  text-align: center;
+  width: auto;
+	}
+ .merch {
+  margin: 2px;
+  padding: 5px;
+  width: 100%;
+  background-color: #F3C44E;
+}
+	.responsive {
+  padding: 5px 6px;
+  float: left;
+  width: 50%;
+}
+	.audio {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.responsive {
+  padding: 5px 6px;
+  float: left;
+  width: 100%;
+}
+	body {
+  background-image: url("../graphics/background.arrows.pinstripe.2.invert.cleanedup.resized.jpg");
+}
 }
