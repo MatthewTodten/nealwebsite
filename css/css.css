@@ -221,6 +221,14 @@ div.desc {
   width: auto;
 }
 
+a.img:link {
+	color: black; text-decoration: none; }
+a.img:visited {
+	color: black; text-decoration: none; }
+a.img:hover {
+	color: black; text-decoration: underline; }
+a.img:active {
+	color: orchid; } 
 
 a:link {
   color: dodgerblue;
@@ -324,30 +332,33 @@ font-family: 'Aleo', serif;
 		grid-template-columns: auto;
 	    padding: 0px;
 	}
-  p {font-size: 15px;
+   p {font-size: 15px;
 	}
-  .name {font-size: 34px;
+   .name {font-size: 34px;
 	}
-.shop-item {
-  padding: 2px;
-  margin: 5px;
-  text-align: center;
-  width: auto;
+   .grid-item {
+ 	border: 3px dotted rgba(0, 0, 0, 0.8);
 	}
- .merch {
-  margin: 2px;
-  padding: 5px;
-  width: 100%;
-  background-color: #F3C44E;
+   .shop-item {
+  	padding: 2px;
+  	margin: 5px;
+  	text-align: center;
+  	width: auto;
+	}
+   .merch {
+  	margin: 2px;
+  	padding: 5px;
+  	width: 100%;
+  	background-color: #F3C44E;
+	}
+   .responsive {
+  	padding: 5px 6px;
+  	float: left;
+  	width: 50%;
+	}
+   .audio {
+	width: 50%;
 }
-	.responsive {
-  padding: 5px 6px;
-  float: left;
-  width: 50%;
-}
-	.audio {
-		width: 50%;
-	}
 }
 
 @media screen and (max-width: 700px) {
