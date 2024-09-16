@@ -324,7 +324,7 @@ font-family: 'Aleo', serif;
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidena-epk a:hover {
+.sidenav-epk a:hover {
   color: greenyellow;
   text-decoration: line-through;
 }
