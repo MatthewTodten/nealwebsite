@@ -34,6 +34,11 @@ p2 {
    text-align: right;
 } 
 
+p3 {
+   font-family: 'Nunito', sans-serif;
+   font-size: 15px;
+}
+
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -98,6 +103,16 @@ div.desc {
   font-size: 22px;
 }
 
+.header_epk {
+  color: #0093D1;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  text-decoration-line: underline;
+}
+
 .album_subpage_title {
   color: limegreen;
   text-align: center;
@@ -155,12 +170,13 @@ div.desc {
   clear: both;
 }
 
-.album-column {
+.column-epk {
   float: left;
-  width: 33.33%;
+  width: 50%;
+	padding: 10px;
 }
 
-.album.row:after {
+.row-epk:after {
   content: "";
   display: table;
   clear: both;
@@ -280,6 +296,35 @@ font-family: 'Aleo', serif;
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
+  color: greenyellow;
+  text-decoration: line-through;
+}
+
+ /* EPK SIDE NAV */
+.sidenav-epk {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 140px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  float: left;
+  background-color: #000; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+font-family: 'Aleo', serif;
+}
+
+/* The navigation menu links */
+.sidenav-epk a {
+  padding: 6px 12px 6px 16px;
+  text-decoration: underline;
+  font-size: 20px;
+  color: orchid;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidena-epk a:hover {
   color: greenyellow;
   text-decoration: line-through;
 }
