@@ -361,17 +361,27 @@ font-family: 'Aleo', serif;
 	width: 90px;
 	padding: 6px 12px 6px 4px;
 	}
+  .sidenav-epk {padding-top: 15px;
+	width: 80px
+	}
+  .sidenav-epk a {font-size: 15px;
+	width: 90px;
+	padding: 6px 12px 6px 4px;
+	}
   .content {min-width: 225px;
 	 margin-left: 90px;
+	 margin-right: 10px;
 	}
   .header_options {font-size: 22px;
 	}
-  .main {margin: 0px 10px ;
+  .header_epk {font-size: 16px;
+	}
+  .main {margin: 0px 8px ;
 	}
   .header_img {width: 100%
 	}
-  .video {width: 160px;
-		height: 140px;
+  .video {width: 200px;
+		height: 150px;
 	}
   .grid-container {
 		grid-template-columns: auto;
@@ -379,10 +389,15 @@ font-family: 'Aleo', serif;
 	}
    p {font-size: 15px;
 	}
-   .name {font-size: 34px;
+   p3 {font-size: 10px
+   	}
+
+   .name {font-size: 28px;
 	}
    .grid-item {
  	border: 3px dotted rgba(0, 0, 0, 0.8);
+	padding: 4px;
+	font-size: 10px;
 	}
    .shop-item {
   	padding: 2px;
@@ -403,7 +418,7 @@ font-family: 'Aleo', serif;
 	}
    .audio {
 	width: 50%;
-}
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -416,3 +431,4 @@ font-family: 'Aleo', serif;
   background-image: url("../graphics/background.arrows.pinstripe.2.invert.cleanedup.resized.jpg");
 }
 }
+	
